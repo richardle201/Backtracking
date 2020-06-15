@@ -1,1 +1,1 @@
-Solve Hanoi towers, Knight's tour, N Queens, Sudoku using backtracking
+Solve Hanoi towers, Knight's tour, N Queens, Sudoku, Rat maze using backtracking.
