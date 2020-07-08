@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-#define SIZE 8
 
 struct Coor{
     int r;
@@ -130,7 +129,10 @@ int main()
     Stack stack; stack.top=NULL;
     int count=0;
     int row=0;
-    int size = SIZE;
+    int size;
+    do{cout<<"Enter number of queens (size of chessboard):"<<endl;
+    cin>>size;
+    } while(size<1);
     if(Queens(stack,size,row,&count)) cout<<"No solutions."<<endl;
     else cout<<"Number of solutions: "<<count;
     return 0;
